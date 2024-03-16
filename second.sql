@@ -3,5 +3,6 @@
  date date,
  customer_id int,
  product_name varchar,
- amount int
+ amount int,
+ FOREIGN KEY (customer_id) REFERENCES CUSTOMERS(id)
  );
